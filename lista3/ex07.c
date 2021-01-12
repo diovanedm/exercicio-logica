@@ -9,10 +9,8 @@ int main(void) {
 
     if(maior > menor) {
         printf("maior: %i\n", maior);
-        printf("menor: %i\n", menor);
     }else if (maior < menor) {
         printf("maior: %i\n", menor);
-        printf("menor: %i\n", maior);
     } else {
         printf("Valores iguais\n");
     }
