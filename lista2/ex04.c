@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void mostrarNumero(int numero[3]) {
+void mostrarNumero(int numero[]) {
   for (int i = 0; i < 3; i++) {
     printf("%i", numero[i]);    
   }
